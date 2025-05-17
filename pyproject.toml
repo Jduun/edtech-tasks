@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "edtech-tasks"
+version = "0.1.0"
+description = ""
+authors = ["Jduun <isaevstanislav2003@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.32.3"
+beautifulsoup4 = "^4.13.4"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^25.1.0"
+pytest = "^8.3.5"
+isort = "^6.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
